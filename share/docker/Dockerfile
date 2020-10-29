@@ -21,6 +21,9 @@
 FROM openjdk:11-stretch
 WORKDIR /root
 
+
+ENV UNNECESSARY_DOCKERFILE_CHANGE_TO_TEST_LABELER=shouldlabelasbuild
+
 ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=isolemnlysweariamuptonogood \
     DEBIAN_FRONTEND=noninteractive
 
