@@ -28,5 +28,5 @@ Php: ["lang/php/**/*"]
 Python: ["lang/py/**/*"]
 Python3: ["lang/py3/**/*"]
 Ruby: ["lang/ruby/**/*"]
-build: ["**/Dockerfile", "**/*.sh", "**/pom.xml", ".github/**/*"] # TODO - Need to check the pom.xml glob
+build: ["**/Dockerfile", "**/*.sh", "**/pom.xml", ".github/**/*"]
 website: ["doc/**/*"]
